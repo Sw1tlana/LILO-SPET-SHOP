@@ -1,0 +1,616 @@
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.main-header {
+   width: 100%;
+   position: absolute;
+   padding-top: 61px;
+   padding-bottom: 61px;
+}
+.container {
+    max-width: 1370px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo {
+    margin-right: 229px;
+    font-weight: 600;
+    font-size: 41px;
+    line-height: 100%;
+    color: #3f2a1e;
+    text-transform: uppercase;
+}
+
+.logo span {
+    color: #fb6c1c;
+}
+
+.main-nav {
+    display: inline;
+}
+
+.main-menu {
+   display: inline;
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
+.main-menu-item {
+    display: inline;
+    margin-right: 90px;
+}
+
+.link-menu {
+    color: black;
+}
+
+
+.socials {
+    list-style: none;
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+.socials-item {
+   display: inline;
+   margin-right: 5px;
+}
+
+/* ------------------------------Hero -------------------------*/
+
+.hero {
+    background-image: url(../images/banner.jpg);
+    padding-top: 290px;
+    padding-bottom: 350px;
+    text-align: center;
+    background-size: cover;
+}
+
+.hero-slogan-accent {
+    display: block;
+    font-weight: 800;
+    font-size: 95px;
+    line-height: 100%;
+    background: linear-gradient(90deg, #FB6C1C -21.51%, #FC7817 9.02%, #FFA800 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-transform: uppercase;
+    margin-top: 11px;
+}
+
+.hero-slogan {
+    font-size: 33px;
+    line-height: 34px;
+    color: #000000;
+    margin-bottom: 46px;
+}
+
+.hero-text {
+    max-width: 732px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 42px;
+}
+
+.hero-link {
+    display: inline-block;
+    background: linear-gradient(90deg, #FB6C1C -21.51%, #FC7817 9.02%, #FFA800 50%);
+    border-radius: 29px;
+    padding: 20px 50px;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.service {
+    background-image: url(../images/Rectangle\ 18.jpg);
+    background-size: cover;
+    text-align: right;
+    padding-top: 227px;
+    padding-bottom: 199px;
+}
+
+.pre-text {
+    font-size: 22px;
+    line-height: 25px;
+    letter-spacing: 0.09em;
+    margin-top: 0;
+    margin-bottom: 13px;
+}
+
+.title-service {
+    font-weight: 800;
+    font-size: 65px;
+    line-height: 100%;
+    color: #260E01;
+    margin-top: 0;
+    margin-bottom: 38px;
+}
+
+.service-text {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: right;
+    color: #363636;
+    max-width: 669px;
+    margin-left: auto;
+    margin-bottom: 77px;
+}
+
+.service-list {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    gap: 18px;
+}
+
+.service-list-count {
+    padding: 53px 75px;
+    background: #ffffff;
+    color: #5a4f49;
+    font-size: 32px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.service-list-count-active {
+    background: #5a4f49;
+    color: #fffefe;
+}
+
+
+/* .icon {
+     margin-bottom: 52px;  
+} */
+
+.service-link {
+    display: flex;
+    width: min-content;
+    flex-direction: column;
+    align-items: center;
+    color: inherit;
+}
+
+.service-link span {
+    font-size: 24px;
+}
+
+.service-link hr {
+    width: 100%;
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+ /* ---------------Advantages-------------  */
+
+.advantages {
+    padding-top: 178px;
+    padding-bottom: 135px;   
+}
+
+.pre-text-advantages {
+    text-align: center;
+}
+
+.title-text-advantages {
+    text-align: center;
+}
+
+.page-text-advantages {
+    text-align: center;
+    max-width: 100%;
+}
+
+.advantages-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+.advantages-item hr {
+    width: 111px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+.advantages-name {
+    margin-top: 44px;
+    margin-bottom: 36px;
+    font-size: 35px;
+    line-height: 52px;
+}
+
+.advantages-text {
+    line-height: 25px;
+    text-align: center;
+    color: #363636;
+}
+
+/*----------------------About------------------ */
+
+.about {
+    padding-top: 242px;
+    padding-bottom: 231px;
+}
+
+.wrapper {
+    max-width: 691px;
+}
+
+.about-pretext {
+    font-size: 22px;
+    line-height: 25px;
+    letter-spacing: 0.09em; 
+    color: #000000;
+    margin: 0;
+    margin-bottom: 9px;
+}
+
+.about-title {
+    margin: 0;
+    line-height: 80px;
+    font-weight: 800;
+    font-size: 80px;
+    background: linear-gradient(90deg, #FB6C1C -21.51%, #FC7817 9.02%, #FFA800 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.about-title-color {
+    display: block;
+    font-weight: 800;
+    line-height: 80px;
+    -webkit-text-fill-color: #3F2A1E;
+}
+
+.about-text {
+    font-size: 16px;
+    line-height: 25px;
+    color: #363636;
+    margin-bottom: 30px;
+}
+
+.about-container {
+    display: flex;
+    column-gap: 85px;
+}
+
+.about-items {
+    position: relative;
+    flex-grow: 1;
+    padding-top: 60px;
+}
+
+.about-image2 {
+    position: absolute;
+    left: 253px;
+    top: 0; 
+   
+}
+
+/* .about-image1 {
+
+} */
+
+.about-image3 {
+  position: absolute;
+  bottom: 84px;
+  border: 11px solid white;
+  left: 216px; 
+  
+}
+
+.about-items-text {
+    position: absolute;
+    top: 144px;
+    left: 172px;
+    z-index: 2;
+    background: #FB6C1C;    
+    border: 12px solid rgba(252, 216, 196, 0.95);
+    width: 144px;
+    height: 144px;
+    border-radius: 50%;
+    font-size: 22px;
+    line-height: 25px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------------Mission----------------- */
+
+.mission {
+    background-image: url(../images/dog-mission.png);
+    background-size: cover;
+}
+
+.pretext-mission{
+    font-size: 22px;
+    line-height: 25px;
+    letter-spacing: 0.09em;
+    color: #000000;
+    margin-top: 214px;
+    margin-bottom: 13px;
+}
+
+.title-main-mission{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 800;
+    font-size: 65px;
+    line-height: 100%;
+    color: #260E01;
+}
+
+.text-mission {
+    font-size: 16px;
+    line-height: 25px;
+    color: #363636;
+    margin-top: 27px;
+    margin-bottom: 45px;
+    max-width: 470px;
+}
+
+.link-mission {  
+    display: inline-block;
+    background: linear-gradient(90deg, #FB6C1C -21.51%,
+    #FC7817 9.02%, 
+    #FFA800 50%);
+    border-radius: 29px;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding: 18px 65px 20px 65px;
+    margin-bottom: 234px;
+}
+
+
+/* ---------------Message-------------- */
+
+.message {
+    background-color: #F5F5F5;
+    padding-top: 196px;
+    padding-bottom: 162px;
+}
+
+.pretext-message {
+    font-size: 22px;
+    line-height: 25px;
+    letter-spacing: 0.09em;  
+    color: #000000;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.title-main-message {
+    font-weight: 800;
+    font-size: 65px;
+    line-height: 98px;
+    color: #260E01;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.text-message {
+    margin-top: 32px;
+    margin-bottom: 71px;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #363636;
+    text-align: center;
+}
+
+.main-menu-message {
+  display: flex;
+}
+
+.list-menu-message {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.list-item-message {
+    padding: 17px 216px 24px 34px;
+    background: #FFFFFF;
+    border-radius: 29px;
+    margin-right: 28px;
+}
+.link-message {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 25px;
+    color: #363636;
+}
+
+.message-button {
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: linear-gradient(90deg,
+    #FB6C1C -21.51%, 
+    #FC7817 9.02%,
+    #FFA800 50%);
+    border-radius: 29px;
+    border: none;
+    text-transform: uppercase;
+    padding: 21px 78px 20px 77px;
+    text-align: center;
+}
+
+
+/* ---------------Footer------------ */
+
+.footer-content {
+    display: flex;
+}
+
+.page-footer {
+    padding-top: 170px;
+    padding-bottom: 180px;
+    color: #ffffff;
+    background: linear-gradient(90deg,
+     #FB6C1C -21.51%,
+     #FC7817 9.02%,
+     #FFA800 50%);
+}
+
+.pre-title {
+    font-size: 22px;
+    line-height: 25px;
+    letter-spacing: 0.09em;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.footer-about {
+    font-weight: 800;
+    font-size: 65px;
+    line-height: 98px;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.footer-other-info {
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 25px;  
+}
+
+.contact-us {
+    display: flex;
+    flex-grow: 1;
+    margin-top: 64px;
+    margin-bottom: 0;
+}
+
+.contact-1 {
+    font-size: 16px;
+    line-height: 25px;
+    display: flex;
+    flex-basis: 50%;
+    gap: 14px;
+    align-items: center;
+}
+
+.footer-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 95px;
+    font-size: 20px;
+    line-height: 21px;
+    margin-bottom: 0;   
+}
+
+.footer-list-link {
+    font-size: 20px;
+    line-height: 21px;
+    color: #ffffff;
+}
+
+.contact-link {
+    color: #ffffff;
+}
+
+.footer-nav {
+    border-bottom: 1px solid #FB6C1C;
+    padding-bottom: 35px;
+    margin-bottom: 34px;
+}
+
+.footer-corporight {
+    font-size: 20px;
+    line-height: 21px;
+    color: #ffffff;
+}
+
+.footer-images {
+    position: relative;
+    flex-basis: 50%;  
+}
+
+.image-footer1 {
+  position: absolute;
+  left: 0;
+  top: -25px
+}
+
+.image-footer2 {
+    position: absolute;
+    top: 201px;
+    left: 35px;
+    border: 10px solid #FCD8C4;
+    z-index: 1;
+}
+
+.image-footer3 {
+   position: absolute; 
+   left: 350px;
+   top: 25px;
+}
+
+.image-info {
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 278px;
+    top: 106px;
+    position: absolute;
+    width: 144px;
+    height: 144px;
+    background-color: #FB6C1C;
+    border-radius: 50%;
+    font-size: 22px;
+    line-height: 25px;
+    text-transform: uppercase;
+    border: 11px solid rgba(255, 255, 255, 0.71);
+}
+
+.footer-contacts {
+    margin-left: 115px;
+}
